@@ -144,7 +144,7 @@ class MyStack(TerraformStack):
             "cloudf_dist_ek",
             enabled=True,
             web_acl_id=wafexample.arn,
-            depends_on=[website_bucket,access_control],
+            depends_on=[website_bucket,access_control, wafexample],
             default_root_object = "index.html",
             origin= [{
                 "domainName": website_bucket.bucket_regional_domain_name,
