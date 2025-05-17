@@ -12,7 +12,7 @@
 
 5- It's creatable via CDKTF IAC.
 
-6- The Static site is an index.html with a "Hellow World".
+6- The Static site is an index.html with a "Hello World".
 
 7- It also includes the timestamp of when it was deployed as part of the html content.
 
